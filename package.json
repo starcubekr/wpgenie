@@ -1,0 +1,20 @@
+{
+	"name": "genie",
+	"version": "0.1.0",
+	"description": "Book info display with Aladin OPENAPI.",
+	"author": "Seokmoon, JANG",
+	"license": "MIT",
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build --webpack-copy-php",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start --webpack-copy-php"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^29.0.0"
+	}
+}
